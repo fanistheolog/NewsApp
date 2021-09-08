@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "669204284974",
+    "project_id": "teleutaio-test-gamw",
+    "storage_bucket": "teleutaio-test-gamw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669204284974:android:a0ce2e37c8e418742901bf",
+        "android_client_info": {
+          "package_name": "com.example.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669204284974-e6plnv0sqo8vuv0mnuq6e67g4dqt11cq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrNa_5xDQLmNbzbrjG6-SgJLTBHJHHsik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669204284974-e6plnv0sqo8vuv0mnuq6e67g4dqt11cq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

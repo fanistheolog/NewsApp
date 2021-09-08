@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1e1e1e">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/postTitleTextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:text="Settings"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="105dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/relatedImageView2"
+                    android:layout_width="50dp"
+                    android:layout_height="47dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="4dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/emptyimage"
+                    app:riv_corner_radius="35dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="25dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/postTitleTextView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="75dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text="Theofanis Theologitis"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/postTitleTextView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="75dp"
+                        android:layout_marginRight="5dp"
+                        android:fontFamily="@font/cantora_one"
+                        android:text="fanistheolog@gmail.com"
+                        android:textColor="#8E8D8D"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    android:id="@+id/postTitleTextView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:text="Summary"
+                    android:textColor="#aeadb1"
+                    android:textSize="14sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/postTitleTextView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text="Notifications"
+                            android:textColor="#aeadb1"
+                            android:textSize="18sp" />
+
+                        <Switch
+                            android:id="@+id/checkbox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="10dp"
+                            android:checked="true"
+                            android:theme="@style/SCBSwitch"
+                            android:trackTint="@drawable/switch_track_selector" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:id="@+id/postTitleTextView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text="Change Password"
+                            android:textColor="#aeadb1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/postTitleTextView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text=">"
+                            android:textColor="#aeadb1"
+                            android:textSize="22dp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:id="@+id/postTitleTextView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text="About Us"
+                            android:textColor="#aeadb1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/postTitleTextView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text=">"
+                            android:textColor="#aeadb1"
+                            android:textSize="22dp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:id="@+id/postTitleTextView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text="Rate This App"
+                            android:textColor="#aeadb1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/postTitleTextView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text=">"
+                            android:textColor="#aeadb1"
+                            android:textSize="22dp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:id="@+id/postTitleTextView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text="Sign Out"
+                            android:textColor="@color/purple"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/postTitleTextView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:text=">"
+                            android:textColor="#aeadb1"
+                            android:textSize="22dp" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#222222"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="69dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/HomeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/recommendedFirstImageView2"
+                    android:layout_width="32dp"
+                    android:layout_height="29dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/home" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:gravity="center"
+                    android:text="Home"
+                    android:textColor="#FFFFFF" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/DiscoverIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="47dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/recommendedFirstImageView3"
+                    android:layout_width="32dp"
+                    android:layout_height="29dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/globe" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:gravity="center"
+                    android:text="Discover"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/BookmarksIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="47dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/recommendedFirstImageView4"
+                    android:layout_width="32dp"
+                    android:layout_height="29dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bookmark" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:gravity="center"
+                    android:text="Bookmarks"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/SettingsIcon"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="47dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/recommendedFirstImageView5"
+                    android:layout_width="32dp"
+                    android:layout_height="29dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/settings2" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:gravity="center"
+                    android:text="Settings"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

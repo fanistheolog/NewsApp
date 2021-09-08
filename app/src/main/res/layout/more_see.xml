@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1e1e1e"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp">
+
+                <ImageView
+                    android:id="@+id/backImage2"
+                    android:layout_width="39dp"
+                    android:layout_height="31dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/arrow" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:text="All Articles"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+            </FrameLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="15dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="155dp"
+
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/emptyimage"
+                            app:riv_corner_radius="10dip" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:gravity="bottom"
+                            android:text="Us President is showing no signs of regret or remorse for all of the things that he did.."
+                            android:textColor="#FFFFFF"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="7dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:gravity="bottom"
+                            android:text="🕒August 6, 2021"
+                            android:textColor="#FFFFFF"
+                            android:textSize="8sp" />
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="181dp"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="161dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/imageView1"
+                                android:layout_width="161dp"
+                                android:layout_height="157dp"
+
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/emptyimage"
+                                app:riv_corner_radius="10dip" />
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="20dp"
+                                android:fontFamily="@font/cantora_one"
+                                android:gravity="bottom"
+                                android:text="Iceland is my favorite country i would love to visit it someday"
+                                android:textColor="#FFFFFF"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:id="@+id/textView26"
+                                android:layout_width="wrap_content"
+                                android:layout_height="49dp"
+                                android:layout_gravity="bottom"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="7dp"
+                                android:fontFamily="@font/cantora_one"
+                                android:gravity="bottom"
+                                android:text="🕒August 6, 2021"
+                                android:textColor="#FFFFFF"
+                                android:textSize="8sp" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="73.5dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="15dp">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/imageView1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/emptyimage"
+                                    app:riv_corner_radius="10dip" />
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:fontFamily="@font/cantora_one"
+                                    android:gravity="bottom"
+                                    android:text="NASA's Green Propellant Infusion Mission Deploys"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="10sp" />
+
+                                <TextView
+                                    android:id="@+id/textView26"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="49dp"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:fontFamily="@font/cantora_one"
+                                    android:gravity="bottom"
+                                    android:text="🕒August 6, 2021"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="8sp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="73.5dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="15dp">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/imageView1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/emptyimage"
+                                    app:riv_corner_radius="10dip" />
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:fontFamily="@font/cantora_one"
+                                    android:gravity="bottom"
+                                    android:text="Kim Kardasian is finally divorced to Kanye West"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="10sp" />
+
+                                <TextView
+                                    android:id="@+id/textView26"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="49dp"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:fontFamily="@font/cantora_one"
+                                    android:gravity="bottom"
+                                    android:text="🕒August 6, 2021"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="8sp" />
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="154dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="15dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="155dp"
+
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/emptyimage"
+                            app:riv_corner_radius="10dip" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:gravity="bottom"
+                            android:text="Wow that is a very cool bridge i would be scared to go there but i would"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="7dp"
+                            android:fontFamily="@font/cantora_one"
+                            android:gravity="bottom"
+                            android:text="🕒August 6, 2021"
+                            android:textColor="#FFFFFF"
+                            android:textSize="8sp" />
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/imageView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="155dp"
+
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/emptyimage"
+                                app:riv_corner_radius="10dip" />
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="20dp"
+                                android:fontFamily="@font/cantora_one"
+                                android:gravity="bottom"
+                                android:text="These are some very nice waves makes me want to learn how to surf and go there "
+                                android:textColor="#FFFFFF"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:id="@+id/textView26"
+                                android:layout_width="wrap_content"
+                                android:layout_height="49dp"
+                                android:layout_gravity="bottom"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="7dp"
+                                android:fontFamily="@font/cantora_one"
+                                android:gravity="bottom"
+                                android:text="🕒August 6, 2021"
+                                android:textColor="#FFFFFF"
+                                android:textSize="8sp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="10dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/imageView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="155dp"
+
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/emptyimage"
+                                app:riv_corner_radius="10dip" />
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="20dp"
+                                android:fontFamily="@font/cantora_one"
+                                android:gravity="bottom"
+                                android:text="I found this image online and it looked very nice so i put it in the app"
+                                android:textColor="#FFFFFF"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:id="@+id/textView26"
+                                android:layout_width="wrap_content"
+                                android:layout_height="49dp"
+                                android:layout_gravity="bottom"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="7dp"
+                                android:fontFamily="@font/cantora_one"
+                                android:gravity="bottom"
+                                android:text="🕒August 6, 2021"
+                                android:textColor="#FFFFFF"
+                                android:textSize="8sp" />
+                        </FrameLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#222222"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout3">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="69dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/HomeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/recommendedFirstImageView2"
+                    android:layout_width="32dp"
+                    android:layout_height="29dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/home" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:gravity="center"
+                    android:text="Home"
+                    android:textColor="#FFFFFF" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/DiscoverIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="47dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/recommendedFirstImageView3"
+                    android:layout_width="32dp"
+                    android:layout_height="29dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/globe2" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:gravity="center"
+                    android:text="Discover"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/BookmarksIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="47dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/recommendedFirstImageView4"
+                    android:layout_width="32dp"
+                    android:layout_height="29dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bookmark" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:gravity="center"
+                    android:text="Bookmarks"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/SettingsIcon"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="47dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/recommendedFirstImageView5"
+                    android:layout_width="32dp"
+                    android:layout_height="29dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/settings" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/cantora_one"
+                    android:gravity="center"
+                    android:text="Settings"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

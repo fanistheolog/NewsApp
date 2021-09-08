@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/autour_one</item>
+        <item>@font/bree_serif</item>
+        <item>@font/cabin_sketch</item>
+        <item>@font/cantora_one</item>
+        <item>@font/doppio_one</item>
+        <item>@font/leckerli_one</item>
+        <item>@font/marck_script</item>
+    </array>
+</resources>

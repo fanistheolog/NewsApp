@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="#1e1e1e">
+
+            <ImageView
+                android:id="@+id/backImage3"
+                android:layout_width="39dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/arrow" />
+
+            <TextView
+                android:id="@+id/postTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="Comments"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:background="#FFFFFF"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#242426">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/relatedImageView"
+                                android:layout_width="50dp"
+                                android:layout_height="47dp"
+
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="4dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/emptyimage"
+                                app:riv_corner_radius="35dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_marginTop="15dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="75dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="Jason Arvanitelis •"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="18sp" />
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="August 10, 2021 08:55 P.M"
+                                        android:textColor="#8E8D8D"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/postTitleTextView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/cantora_one"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus vehicula rutrum. Vivamus non massa eu tellus lobortis ullamcorper. Aenean convallis sollicitudin lobortis. Nulla facilisi. Proin mattis dignissim diam, at malesuada elit ultrices dictum. Morbi ac lacus blandit, aliquet leo a, mollis mi."
+                                    android:textColor="#8E8D8D"
+                                    android:textSize="12sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#c0c0c0" />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/relatedImageView"
+                                android:layout_width="50dp"
+                                android:layout_height="47dp"
+
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="4dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/emptyimage"
+                                app:riv_corner_radius="35dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_marginTop="15dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="75dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="Fotis Galanis •"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="18sp" />
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="August 10, 2021 08:55 P.M"
+                                        android:textColor="#8E8D8D"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/postTitleTextView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/cantora_one"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus vehicula rutrum. Vivamus non massa eu tellus lobortis ullamcorper. Aenean convallis sollicitudin lobortis. Nulla facilisi. Proin mattis dignissim diam, at malesuada elit ultrices dictum. Morbi ac lacus blandit, aliquet leo a, mollis mi."
+                                    android:textColor="#8E8D8D"
+                                    android:textSize="12sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#c0c0c0" />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/relatedImageView"
+                                android:layout_width="50dp"
+                                android:layout_height="47dp"
+
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="4dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/emptyimage"
+                                app:riv_corner_radius="35dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_marginTop="15dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="75dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="John Kafiasis •"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="18sp" />
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="August 10, 2021 08:55 P.M"
+                                        android:textColor="#8E8D8D"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/postTitleTextView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/cantora_one"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus vehicula rutrum. Vivamus non massa eu tellus lobortis ullamcorper. Aenean convallis sollicitudin lobortis. Nulla facilisi. Proin mattis dignissim diam, at malesuada elit ultrices dictum. Morbi ac lacus blandit, aliquet leo a, mollis mi."
+                                    android:textColor="#8E8D8D"
+                                    android:textSize="12sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#c0c0c0" />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/relatedImageView"
+                                android:layout_width="50dp"
+                                android:layout_height="47dp"
+
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="4dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/emptyimage"
+                                app:riv_corner_radius="35dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_marginTop="15dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="75dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="Dony Gavalas •"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="18sp" />
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="August 10, 2021 08:55 P.M"
+                                        android:textColor="#8E8D8D"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/postTitleTextView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/cantora_one"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus vehicula rutrum. Vivamus non massa eu tellus lobortis ullamcorper. Aenean convallis sollicitudin lobortis. Nulla facilisi. Proin mattis dignissim diam, at malesuada elit ultrices dictum. Morbi ac lacus blandit, aliquet leo a, mollis mi."
+                                    android:textColor="#8E8D8D"
+                                    android:textSize="12sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#c0c0c0" />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/relatedImageView"
+                                android:layout_width="50dp"
+                                android:layout_height="47dp"
+
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="4dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/emptyimage"
+                                app:riv_corner_radius="35dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_marginTop="15dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="75dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="Frosw Xristinidou •"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="18sp" />
+
+                                    <TextView
+                                        android:id="@+id/postTitleTextView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:fontFamily="@font/cantora_one"
+                                        android:text="August 10, 2021 08:55 P.M"
+                                        android:textColor="#8E8D8D"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/postTitleTextView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/cantora_one"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus vehicula rutrum. Vivamus non massa eu tellus lobortis ullamcorper. Aenean convallis sollicitudin lobortis. Nulla facilisi. Proin mattis dignissim diam, at malesuada elit ultrices dictum. Morbi ac lacus blandit, aliquet leo a, mollis mi."
+                                    android:textColor="#8E8D8D"
+                                    android:textSize="12sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#c0c0c0" />
+
+                            </LinearLayout>
+                        </FrameLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#242426"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="49dp"
+            android:background="#c0c0c0" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:ems="10"
+            android:hint="Write a comment"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="26dp"
+            android:layout_height="34dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/sendarrow" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
