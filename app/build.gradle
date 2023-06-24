@@ -156,7 +156,7 @@ implementation  'junit:junit:4.13.2'
 implementation  'org.mockito:mockito-core:2.23.0'
 implementation  'org.powermock:powermock-core:1.7.0RC4'
 implementation  'org.powermock:powermock-api-mockito2:1.7.0RC4'
-implementation  'org.powermock:powermock-module-junit4:1.7.0RC4'
+implementation  'org.powermock:powermock-module-junit4:2.0.9'
 implementation  'com.squareup.okhttp3:mockwebserver:4.9.0'
 implementation  'com.samskivert:jmustache:1.15'
 }
